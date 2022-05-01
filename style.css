@@ -7,11 +7,36 @@ html {
 body {
   min-height: 100%;
   min-width: 100%;
-  background: linear-gradient(pink, violet);
+  background: linear-gradient(#38aecc, #fcfcfc);
+}
+
+h1 {
+  font-size: 48px;
+  color: #333;
 }
 
 button {
   font-size: 7px;
+}
+
+.sublist {
+  display: block;
+}
+
+.high {
+  color: #f786aa;
+}
+
+.moderate {
+  color: #f4d35e;
+}
+
+.normal {
+  color: #7bd389;
+}
+
+.low {
+  color: #38aecc;
 }
 
 #main-content {
@@ -20,18 +45,18 @@ button {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  border: 1px solid #333;
+  border: 1px solid #26547c;
   background: rgba(255, 255, 255, 0.3);
   padding: 15px 20px 18px 18px;
   border-radius: 5px;
-  box-shadow: 2px 5px 5px #333;
+  box-shadow: 2px 5px 5px #26547c;
 }
 
 #list {
   margin: 10px;
-  border: 1px solid #333;
+  border: 1px solid #26547c;
   background: rgba(255, 255, 255, 0.75);
   padding: 15px 20px 18px 18px;
   border-radius: 5px;
-  box-shadow: 2px 5px 5px #333;
+  box-shadow: 2px 5px 5px #26547c;
 }
