@@ -1,4 +1,5 @@
 
+const createTaskForm = document.getElementById('create-task-form')
 const newTaskDescription = document.getElementById('new-task-description')
 const prioritySelection = document.getElementById('priority-selection')
 const highPriority = document.getElementById('high-priority')
@@ -9,7 +10,7 @@ const lowPriority = document.getElementById('low-priority')
 document.addEventListener('submit', event => {
     event.preventDefault()
     createItem()
-    newTaskDescription.value = ''
+    createTaskForm.reset()
 })
 
 const createItem = () => {
