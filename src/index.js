@@ -15,7 +15,11 @@ document.addEventListener('submit', event => {
 const createItem = () => {
     let item = document.createElement('li')
     let text = newTaskDescription.value
+    let delButton = document.createElement('button')
+    delButton.textContent = 'x'
+    delButton.addEventListener('click', () => {item.remove()})
     item.append(text)
+    item.append(delButton)
     styleAndAppendItem(item)
 }
 
